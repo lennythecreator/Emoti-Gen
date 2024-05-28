@@ -31,3 +31,40 @@ Emoti-Gen is an innovative AI chat application designed to understand and engage
 
    ```bash
    git clone https://github.com/yourusername/emoti-gen.git
+
+
+2. **Navigate to the Project Directory**
+
+   ```bash
+   cd emoti-gen
+
+3. **Install Dependencies**
+
+   ```bash
+   npm install
+4. **Set Up Firebase**
+   ```bash
+   // firebaseConfig.js
+   import firebase from 'firebase/app';
+   import 'firebase/auth';
+   import 'firebase/firestore';
+   
+   const firebaseConfig = {
+     apiKey: "YOUR_API_KEY",
+     authDomain: "YOUR_AUTH_DOMAIN",
+     projectId: "YOUR_PROJECT_ID",
+     storageBucket: "YOUR_STORAGE_BUCKET",
+     messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+     appId: "YOUR_APP_ID",
+   };
+   
+   if (!firebase.apps.length) {
+     firebase.initializeApp(firebaseConfig);
+   }
+   
+   export { firebase };
+5. **Run the Application**
+   ```bash
+   npm run web
+
+
