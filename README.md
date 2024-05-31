@@ -180,10 +180,6 @@ To contribute to EmotiGen, follow these steps:
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Contact
-
-If you want to contact me, you can reach me at [your-email@example.com](mailto:your-email@example.com).
-
 ---
 
 **EmotiGen** - Making conversations more engaging and emotionally intelligent!
