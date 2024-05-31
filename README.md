@@ -33,7 +33,7 @@ Before you begin, ensure you have met the following requirements:
 1. **Clone the Repository**
 
     ```sh
-    https://github.com/lennythecreator/Emoti-Gen.git
+    git clone https://github.com/lennythecreator/Emoti-Gen.git
     cd emoti-gen
     ```
 
